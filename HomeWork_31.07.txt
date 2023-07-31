@@ -1,0 +1,15 @@
+   0 cd /
+   1 ls
+   2 vi /tmp/file.txt
+   3 cd /
+   4 ls
+   5 cd tmp
+   6 ls
+   7 df -h
+   8 df -h | head -n 3 >> /tmp/file.txt
+   9 cat file.txt 
+  10 chmod g+w file.txt
+  11 chmod u-r file.txt 
+  12 chmod o+x file.txt 
+  13 history
+  14 history > history_HomeWork31_07.txt
